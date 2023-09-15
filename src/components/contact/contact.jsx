@@ -6,7 +6,6 @@ export default class Contact extends Component {
   render() {
     return (
       <>
-      <Nav/>
       <div className="contact">
         <div className="container">
         <h1 className='text-center mt-5'>CONTACT SECTION</h1>
@@ -25,7 +24,6 @@ export default class Contact extends Component {
         </div>
         </div>
       </div>
-      <Footer/>
 
       
       </>

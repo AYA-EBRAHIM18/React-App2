@@ -6,15 +6,20 @@ import { RouterProvider, createBrowserRouter, createHashRouter } from "react-rou
 import Portfolio from "./components/porfolio/portfolio";
 import About from './components/about/about';
 import Contact from './components/contact/contact';
+import Layout from "./components/layout/layout";
 
 
 const router=createHashRouter([
   
   {path:'#',element:<Home/>},
-  {path:'',element:<Home/>},
-  {path:'about',element:<About/>},
-  {path:'portfolio',element:<Portfolio/>},
-  {path:'contact',element:<Contact/>}
+  {path:'',element:<Layout/>,children:[
+    {path:'about',element:<About/>},
+    {path:'portfolio',element:<Portfolio/>},
+    {path:'contact',element:<Contact/>},
+    {path:'',element:<Home/>}
+  ]},
+  {path:'*',element:<Home/>},
+  
 ])
 export default class App extends Component {
   

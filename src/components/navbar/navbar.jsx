@@ -30,14 +30,14 @@ export default class Nav extends Component {
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
      
         <li className="nav-item rounded-pill ">
-          <Link className="nav-link text-white fw-bold fs-5  "  to='/about' >About</Link>
+          <Link className="nav-link text-white fw-bold fs-5  "  to='about' >About</Link>
           
         </li>
         <li className="nav-item rounded-pill">
-        <Link className="nav-link text-white fw-bold fs-5  "  to='/portfolio' >Portfolio</Link>
+        <Link className="nav-link text-white fw-bold fs-5  "  to='portfolio' >Portfolio</Link>
         </li>
         <li className="nav-item rounded-pill">
-        <Link className="nav-link text-white fw-bold fs-5  "  to='/contact' >Contact</Link>
+        <Link className="nav-link text-white fw-bold fs-5  "  to='contact' >Contact</Link>
         </li>
       </ul>
      

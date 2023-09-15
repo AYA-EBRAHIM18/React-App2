@@ -6,7 +6,7 @@ export default class   Portfolio extends Component {
   render() {
     return (
       <>
-      <Nav/>
+     
        <div className="portfolio">
         <div className="container">
         <h1 className='text-center mt-5'>PORTFOLIO COMPONENT</h1>
@@ -60,7 +60,6 @@ export default class   Portfolio extends Component {
         </div>
         </div>
       </div>
-      <Footer/>
 
       </>
     )

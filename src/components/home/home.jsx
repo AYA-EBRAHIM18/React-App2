@@ -6,7 +6,6 @@ export default class Home extends Component {
   render() {
     return (
       <>
-      <Nav/>
       <div className="home d-flex flex-column justify-content-center align-items-center ">
         <div className="photo">
             <img src='https://routeegy.github.io/startFramework/assets/images/avataaars.svg'  alt="" />
@@ -24,7 +23,6 @@ export default class Home extends Component {
       </div>
 
       
-      <Footer/>
 
      
 

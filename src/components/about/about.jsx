@@ -6,7 +6,6 @@ export default class About extends Component {
   render() {
     return (
       <>
-      <Nav/>
         <div className="about  text-white">
        <div className="container">
        <h1 className='text-center my-5'>ABOUT COMPONENT</h1>
@@ -31,7 +30,6 @@ export default class About extends Component {
         </div>
        </div>
       </div>
-      <Footer/>
 
       </>
     )
